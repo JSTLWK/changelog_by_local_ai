@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define remote URL for git_changelog script
-SCRIPT_URL="https://raw.githubusercontent.com/JSTLWK/changelog_by_local_ai/refs/heads/master/install_script.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/JSTLWK/changelog_by_local_ai/refs/heads/master/git_changelog.sh"
 
 # Ensure the script is run as root (for installing packages)
 if [ "$EUID" -ne 0 ]; then
